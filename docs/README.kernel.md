@@ -36,17 +36,13 @@ this time.
 ### Using the Tools
 
 You can use any cross-compilation toolchain of your choosing, or you can
-download the toolchains from ni.com, or build them yourself.
+download the toolchains from ni.com.
 
 The toolchains are available for download at:
 x86_64: http://www.ni.com/download/labview-real-time-module-2014/4959/en/
 armv7-a: http://www.ni.com/download/labview-real-time-module-2014/4957/en/
 
-Refer to the README to get started with building OpenEmbedded
-components, and build the NILRT SDK containing a GCC toolchain.
-
-The README describes how to build SDKs for both Linux and Windows
-machines. Building the kernel is presently only supported on Linux.
+Building the kernel is presently only supported on Linux.
 
 
 ### Compiling and Installing the kernel
